@@ -141,19 +141,17 @@ iframe{
     min-width: 320px; 
     max-width: 800px;
 }
-div.video{
+div#video{
     margin: 0px -20px 30px -20px;
     padding: 20px;
     position: relative;
     padding-bottom: 59%;
     background-color: aliceblue;
 }
-div.video > iframe{
+div#video > iframe{
     position: absolute;
     top: 5%;
     left: 5%;
     width: 100%;
-    left: 100%;
-    min-width: 320px;
-    max-width: 500px;
+    height: 100%;
 }
